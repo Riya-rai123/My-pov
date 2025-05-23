@@ -7,42 +7,107 @@
 </head>
 <style>
     body{
-        background-color: azure;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .title{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: transparent;
-        position: fixed;
-        
+    background-color: paleturquoise;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     .footer{
-        display: flex;
-        width: 100%;
-        background-color: antiquewhite;
-        color: black;
-        margin-top: 90%;
-        justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    margin-top: 90%;
+    justify-content: center;
     }
-    .intro{
-
-    }
+.heading-box{
+    background-color:peachpuff;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0px 0px 0px 400px;
+        
+}
+.heading-box:hover {
+  box-shadow: 0 0 20px papayawhip, 0 0 30px papayawhip;
+  transform: scale(1.05);
+}
+.first{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: 30px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.second{
+    background-color: gainsboro;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin-right: 30px;
+    margin-top: 50px;
+    float: right;
+}
+.third{
+    background-color: rosybrown;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin-top: 300px;
+    margin-left: 30px;
+}
 </style>
 <body>
-    <div class="title">
-        <img src="/title.png" alt="title" height="100px" width="500px">
+    <header>
+        <img src="/title.png" height="190px" width="100%">
+    </header>
+    <div class="heading-box">
+        <h3>The nature of the world varies from people to people. 
+            <br>Just as the quote <em>"Beauty lies in the eyes of the
+            beholder." </em> <br>the world is dynamic as every individual see it through their eyes.
+        </h3>
+        <p><em>The world in my point of view is a combination of three elements.</em></p>
     </div>
-    <div class="intro">
-        This is how i see the world.
+    <div class="container">
+    <div class="first">
+        <h4>The Harsh Reality</h4>
+        <p><em>I see the world as dark and filled with chaos. It is cruel and filthy. It is filled with suffering and hardships.
+        People compete with each other from the moment they were born. They run and run and run not knowing the destination, 
+        and meeting a common end - death.</em></p>
     </div>
+    <div class="second">
+        <h4>The Magic I believe In</h4>
+        <p><em>I have always believed in magic since childhood. The kind that's only real in myths and fantasy. 
+            There's a line in Cinderella, "Where there is kindness, there is magic." I believe there still do exist witches,
+        vampires, mermaids, warewolves and other mythical creatures. I do believe Harry Potter and his world did exist and wish
+        to live them by myself. In my point of view the world is full of mystry and beautiful things. If we were to truly explore 
+        the nature then, who knows what we might encounter - maybe one of those mythical creatures?</em></p>
+    </div>
+    <div class="third">
+        <h4>Romanticizing Death</h4>
+        <p><em>All people in this world like to descend to heaven but none likes to die. I've never feared death. It always looked very
+            peaceful and calm to me. It's an escape I've been longing for. Romanticizing death isn't about giving up on life rather 
+            it's about understanding life's fragility. It's about how quickly moments slip through our fingertips and how little we truly control.
+            There is a different kind of beauty in something so final, inevitable, yet so misunderstood.
+        </em></p>
+    </div>
+  </div>
     <div class="footer">
-        <p>All rights reserved. &copy; 2025 keres</p>
+        <p>All rights reserved. 
+            <br>&copy; 2025 keres</p>
     </div>
 </body>
 </html>
