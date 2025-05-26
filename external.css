@@ -1,0 +1,29 @@
+ body{
+    background-color: paleturquoise;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .footer{
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    justify-content: center;
+    }
+    
+.heading-box:hover {
+  box-shadow: 0 0 20px papayawhip, 0 0 30px papayawhip;
+  transform: scale(1.05);
+}
+.first:hover{
+    box-shadow: 0 0 20px skyblue, 0 0 30px skyblue;
+    transform: scale(1.05);
+}
+.second:hover{
+    box-shadow: 0 0 20px gray, 0 0 30px gray;
+    transform: scale(1.05);
+}
+.third:hover{
+    box-shadow: 0 0 20px brown, 0 0 30px brown;
+    transform: scale(1.05);
+}
