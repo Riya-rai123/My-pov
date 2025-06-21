@@ -8,63 +8,61 @@
 <link rel="stylesheet" href="external.css">
 <style>
 .heading-box{
+    display: grid;
     background-color:peachpuff;
     color: black;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     justify-content: center;
-    max-width: 700px;
-    margin: 0px 0px 0px 400px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 100px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
 
 .first{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
     background-color: aliceblue;
     color: black;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    max-width: 700px;
-    margin-left: 30px;
+    padding: 10px;
+    width: 80%;
+    margin-left: 200px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .second{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    padding: 10px;
+    width: 80%;
+    margin-left: 200px;
     background-color: gainsboro;
     color: black;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    max-width: 700px;
-    margin-right: 30px;
-    margin-top: 30px;
-    float: right;
      transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .third{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    padding: 10px;
+    width: 80%;
+    margin-left: 200px;
     background-color: rosybrown;
     color: black;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    max-width: 700px;
-    margin-top: 300px;
-    margin-left: 30px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-.harsh{
-   float: right;
-}
-.magic{
-    margin-left: 200px;
-}
-.death{
-   margin-right: 500px;
-   margin-bottom: 2px;
 }
 </style>
 <body>
@@ -78,43 +76,48 @@
         </h3>
         <p><em>The world in my point of view is a combination of three elements.</em></p>
     </div>
-    <div class="container">
-        <div class="harsh">
-        <img src="/the harsh truth.png" height="150px" width="150px">
-    </div>
+    <br><br>
     <div class="first">
+    <div class="harsh">
         <h4>The Harsh Reality</h4>
         <p><em>I see the world as dark and filled with chaos. It is cruel and filthy. It is filled with suffering and hardships.
             I see the dark side of the world not just in war, greed or lies but emptiness behind people's eyes. 
         People compete with each other from the moment they were born. They run and run and run not knowing the destination, 
         and meeting a common end - death.</em></p>
     </div>
+    <div class="image">
+            <img src="/the harsh truth.png" height="180px" width="180px">
+        </div>
+    </div>
+    <br><br>
     <div class="second">
-        <h4>The Magic I believe In</h4>
+        <div class="magic"> <h4>The Magic I believe In</h4>
         <p><em>I have always believed in magic since childhood. The kind that's only real in myths and fantasy. 
             There's a line in Cinderella, "Where there is kindness, there is magic." I believe there still do exist witches,
         vampires, mermaids, warewolves and other mythical creatures. I do believe Harry Potter and his world did exist and wish
         to live them by myself. In my point of view the world is full of mystry and beautiful things. If we were to truly explore 
-        the nature then, who knows what we might encounter - maybe one of those mythical creatures?</em></p>
+        the nature then, who knows what we might encounter - maybe one of those mythical creatures?</em></p></div>
+        <div class="image">
+        <img src="/magic.png" height="180px" width="180px">
+       </div>
     </div>
-    <div class="magic">
-        <img src="/magic.png" height="250px" width="250px" style="float: left;">
-    </div>
-    <div class="death">
-        <img src="/death.png" height="195px" width="195px" style="float: right;">
-        </div>
+    <br><br>
     <div class="third">
-        <h4>Romanticizing Death</h4>
+        <div class="death"><h4>Romanticizing Death</h4>
         <p><em>All people in this world like to descend to heaven but none likes to die. I've never feared death. It always looked very
             peaceful and calm to me. It's an escape I've been longing for. Romanticizing death isn't about giving up on life rather 
             it's about understanding life's fragility. It's about how quickly moments slip through our fingertips and how little we truly control.
             There is a different kind of beauty in something so final, inevitable, yet so misunderstood.
-        </em></p>
+        </em></p></div>
+        <div class="image">
+        <img src="/death.png" height="180px" width="180px">
+        </div>
     </div>
   </div>
-    <div class="footer">
-        <p>All rights reserved. 
-            <br>&copy; 2025 keres</p>
-    </div>
+  <br><br>
+    <footer>All rights reserved. 
+            <br>&copy; 2025 keres
+</footer>
+    
 </body>
 </html>
